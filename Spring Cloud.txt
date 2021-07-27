@@ -1,0 +1,196 @@
+
+** Eureka Server **
+
+https://youtu.be/1877gcSlBXM
+https://www.javainuse.com/spring/spring_eurekaregister3
+https://github.com/ramram43210/Java_Spring_2019/tree/master/JavaEE_2020/SpringBoot_EurekaServer
+https://www.tutorialspoint.com/spring_boot/spring_boot_eureka_server.htm
+
+Eureka Server is an application that holds the information about all client-service applications.
+ Every Micro service will register into the Eureka server and Eureka server knows all the client applications running on each port and IP address.
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+** Zuul Server **
+
+https://www.javainuse.com/spring/spring-cloud-netflix-zuul-tutorial
+
+Spring Cloud Tutorial - Netflix Zuul + Eureka Simple Example:
+https://www.youtube.com/watch?v=g91lFo8OTDY
+
+https://www.youtube.com/watch?v=RrIFDs478mg
+https://www.tutorialspoint.com/spring_boot/spring_boot_zuul_proxy_server_and_routing.htm
+
+https://spring.io/guides/gs/routing-and-filtering/
+
+https://github.com/tecnotab/tecnotab-microservices-youtube/blob/backup3%2Bsession12/netflix-zuul-api-gateway-server/pom.xml
+
+Zuul Server is a gateway application that handles all the requests and does the dynamic routing of microservice applications. 
+The Zuul Server is also known as Edge Server.
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+** hystrix **
+
+https://www.tutorialspoint.com/spring_boot/spring_boot_hystrix.htm
+https://cloud.spring.io/spring-cloud-netflix/multi/multi__circuit_breaker_hystrix_clients.html
+
+Hystrix is a library from Netflix. Hystrix isolates the points of access between the services,
+ stops cascading failures across them and provides the fallback options.
+
+For example, when you are calling a 3rd party application, it takes more time to send the response. 
+So at that time, the control goes to the fallback method and returns the custom response to your application.
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+**Ribbon**
+
+https://cloud.spring.io/spring-cloud-netflix/multi/multi_spring-cloud-ribbon.html
+
+The Ribbon mainly provides client-side load balancing algorithms. It is a client-side load balancer that 
+ provides control over the behavior of HTTP and TCP client. The important point is that when we use Feign, the Ribbon also applies.
+
+Features of Ribbon
+Load balancing
+Fault tolerance
+Multiple protocol support in Asynchronous model
+Caching and batching
+Modules
+ribbon: It is an API that integrates load balancing, fault-tolerance, caching, and
+ribbon-loadbalancer: It is a Load balancer API that can be used independently or with other modules.
+ribbon eureka: It uses Eureka client that provides a dynamic server list for the Spring Cloud.
+ribbon-transport: It is a transport client that supports HTTP, TCP, and UDP These protocols use RxNetty with load balancing capability.
+ribbon-httpclient: It is a REST client built on top of Apache HttpClient integrated with load balancers.
+ribbon-core: It is a Client Configuration API.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+**Zipkin **
+
+Zipkin is an open source project that provides mechanisms for sending, receiving, storing, and visualizing traces. 
+This allows us to correlate activity between servers and get a much clearer picture of exactly what is happening in our services.
+
+Our Zipkin service will serve as the store for all our spans. Each span is sent to this service and 
+collected into traces for future identification.
+
+https://www.baeldung.com/tracing-services-with-zipkin
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**Kafka**
+
+https://www.tibco.com/reference-center/what-is-apache-kafka
+https://www.tutorialspoint.com/spring_cloud/spring_cloud_streams_with_apache_kafka.htm
+https://dzone.com/articles/kafka-with-spring-cloud-stream
+
+Apache Kafka and RabbitMQ are two well-known message brokers used for making asynchronous communication.
+
+Apache Kafka is an open-source distributed publish-subscribe messaging platform that has been purpose-built to handle real-time streaming 
+data for distributed streaming, pipelining, and replay of data feeds for fast, scalable operations.
+
+Kafka is a broker based solution that operates by maintaining streams of data as records within a cluster of servers. 
+Kafka servers can span multiple data centers and provide data persistence by storing streams of records (messages) across multiple server instances in topics.
+ A topic stores records or messages as a series of tuples, a sequence of immutable Python objects, which consist of a key, a value, and a timestamp.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**Logging**
+
+https://www.tutorialspoint.com/spring_cloud/spring_cloud_distributed_logging_using_elk_and_sleuth.htm
+
+In a distributed environment or in a monolithic environment, application logs are very critical for debugging whenever something goes wrong.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+** ELK **
+
+https://www.javainuse.com/spring/springboot-microservice-elk
+https://youtu.be/5s9pR9UUtAU
+https://youtu.be/O5ou6lBwWYw
+
+Sleuth is a well-known tool used for logging in application and ELK is used for simpler observation across the system.
+
+The ELK Stack consists of three open-source products - Elasticsearch, Logstash, and Kibana from Elastic.
+
+Elasticsearch - is a NoSQL database that is based on the Lucene search engine.
+Logstash - is a log pipeline tool that accepts inputs from various sources, executes different transformations, and exports the data to various targets. 
+It is a dynamic data collection pipeline with an extensible plugin ecosystem and strong Elasticsearch synergy
+Kibana - is a visualization UI layer that works on top of Elasticsearch.
+These three projects are used together for log analysis in various environments. So Logstash collects and parses logs, Elastic search indexes and store this information while Kibana provides a UI layer that provide actionable insights.
+
+---------------------------------------------------------------------------------------------------------------------------------------------- 
+ 
+ ** Sleuth  **
+
+ https://spring.io/projects/spring-cloud-sleuth
+
+
+Spring Cloud Sleuth provides Spring Boot auto-configuration for distributed tracing.
+
+Sleuth configures everything you need to get started. This includes where trace data (spans) are reported to, how many traces to 
+keep (sampling), if remote fields (baggage) are sent, and which libraries are traced.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ ** Feign **
+
+https://nirajsonawane.github.io/2019/03/21/Simplifying-Microservices-Communication-Using-Spring-Cloud-OpenFeign/#:~:text=Feign%20Simpliffyes%20the%20HTTP%20API,of%20writing%20repetitive%20boilerplate%20code.
+
+Feign is a Java to HTTP client binder. Feign Simpliffyes the HTTP API Clients using declarative way.
+Feign is a library for creating REST API clients in a declarative way. it makes writing web service clients easier. 
+Developers can use declarative annotations to call rest servicese instead of writing repetitive boilerplate code.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+** Spring Cloud Config **
+
+https://spring.io/projects/spring-cloud-config
+
+Spring Cloud Config provides server and client-side support for externalized configuration in a distributed system. 
+With the Config Server you have a central place to manage external properties for applications across all environments. 
+
+Spring Cloud Config Server features:
+
+	HTTP, resource-based API for external configuration (name-value pairs, or equivalent YAML content)
+
+	Encrypt and decrypt property values (symmetric or asymmetric)
+
+	Embeddable easily in a Spring Boot application using @EnableConfigServer
+
+	Config Client features (for Spring applications):
+
+	Bind to the Config Server and initialize Spring Environment with remote property sources
+
+	Encrypt and decrypt property values (symmetric or asymmetric)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ ** CDN (Content Delivery Network)**
+
+https://www.javacodegeeks.com/2019/06/4-tips-when-using-cdn.html
+
+Your server load will decrease (as more content is served from the CDN cache), which will save you money.
+Content delivery will be faster, since a round-trip to the webserver is not necessary for cached content.
+The availability of your website will increase, because even if your webserver is down, the CDN can serve cached content.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+spring.cloud.loadbalancer.ribbon.enabled=false
+
+2021-07-26 12:12:06.744  WARN 12344 --- [  restartedMain] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+
+
+
+
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'scopedTarget.eurekaClient' defined in class path resource [org/springframework/cloud/netflix/eureka/EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.netflix.discovery.EurekaClient]: Factory method 'eurekaClient' threw exception; nested exception is java.lang.RuntimeException: Failed to initialize DiscoveryClient!
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:656) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+
+
+https://stackoverflow.com/questions/65164809/error-creating-bean-with-name-org-springframework-cloud-netflix-eureka-server-e
+
+
+============================================================================================================================================
+
+
+

@@ -1,0 +1,6 @@
+
+React basics tutorial link:
+https://www.youtube.com/watch?v=4UZrsTqkcW4
+
+Amazon-clone app tutorial:
+https://youtu.be/1_IYL9ZMR_Y

@@ -1,0 +1,44 @@
+		
+	Open JDK - version 8, open source, green zone
+	JRE - version 8
+	Node JS - version 14.15.3, Open source, green zone
+	Google Chrome
+	GIT -  version 2.14.2
+	GitHub - version 2.5.3
+	Postman - version 7.33.1
+	Eclipse IDE - version 2019-03
+	we can download - Spring Tool Suite
+	                  Putty 
+
+Open JDK - version 8, open source, green zone
+	Node JS - version 14.15.3, Open source, green zone
+	Spring Tool Suite
+	Putty 
+================================================================================================================================
+	172.30.74.206
+	Putty Zip file-> https://the.earth.li/~sgtatham/putty/latest/w64/putty.zip
+   *  For database use on cloud:
+     VPN should connect-> open putty second last option->add IP-> got SSH on left->save session->write  vm1-> save->add Prod filethere
+	login- ubuntu
+    sudo su -
+
+    docker ps -a 
+​
+    docker exec -it mysql sh  or docker exec -it gitdb0 sh
+
+    mysql -u root -p
+    
+    jdbc:mysql://172.30.74.206:3307/database name
+
+    *new=> jdbc:mysql://172.30.74.206:3303/appdb
+
+==============================================================================================================================================
+spring.datasource.url=jdbc:mysql://172.30.74.206:3303/appdb
+spring.datasource.username=admin
+spring.datasource.password=admin
+spring.jpa.database-platform=org.hibernate.dialect.MySQLDialect
+spring.jpa.show-sql=false
+spring.jpa.hibernate.ddl-auto=update
+
+
+==========================================================================================================================

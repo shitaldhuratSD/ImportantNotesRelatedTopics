@@ -1,0 +1,23 @@
+
+
+	Putty Zip file-> https://the.earth.li/~sgtatham/putty/latest/w64/putty.zip
+   *  For database use on cloud:
+     VPN should connect-> open putty second last option->add IP-> got SSH on left->save session->write  vm1-> save->add Prod filethere
+	
+      172.30.74.206
+
+     login- ubuntu
+
+    sudo su -
+
+    docker ps -a 
+​
+    docker exec -it gitdb0 sh
+
+    mysql -u root -p
+    
+    jdbc:mysql://172.30.74.206:3307/database name
+
+    *new=> jdbc:mysql://172.30.74.206:3303/appdb
+
+	Optional:     docker exec -it mysql sh

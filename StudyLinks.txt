@@ -1,0 +1,106 @@
+
+
+https://www.udemy.com/course/bootstrap-from-scratch-fast-and-responsive-web-development/?couponCode=0EC5906D8B1D53A2DBF5
+
+https://www.udemy.com/course/memory-improvement-for-beginners-a-condensed-course/?couponCode=B4C224486108D22C0CA1
+
+To learn Git:
+https://phoenixnap.com/kb/how-to-install-git-windows
+
+Unit Testing :
+https://www.vogella.com/tutorials/JUnit/article.html
+
+Swagger Youtube Link:
+https://youtu.be/gduKpLW_vdY
+
+https://youtu.be/pT74o8_cPGw
+
+Demo for Swagger:
+https://petstore.swagger.io/?_ga=2.21646643.966932967.1623041052-1261563818.1623041052
+
+NoSQL
+https://youtu.be/H-A7VdONggM
+
+How to use MongoDB: (It Used Software "MongoChef Professional - 3T Software Labs - Non-Commercial License")
+https://youtu.be/NcW07q9FiAc
+
+Mongo DB Tutorial:
+https://www.tutorialspoint.com/mongodb/mongodb_overview.htm
+
+How to create Collection and Drop collection in MongoDB
+https://youtu.be/9RqMh282OGc
+
+How to insert Documents in MongoDB:6
+https://youtu.be/TCT5ulUzfR8
+
+Query Document in MongoDB:7
+https://youtu.be/FH4XRY6h8Fg
+
+Query Document - AND OR Conditions:7
+https://youtu.be/1avpbijGmBw
+
+MongoDB Update Documents:8
+https://youtu.be/0x7myKJqI44
+
+MongoDB Delete Document:9
+https://youtu.be/-rcvh5aMyW8
+
+MongoDB Projection: 10
+https://youtu.be/dO3sWwJUv04
+
+Using Sort, Skip, and Limit in MongoDB: 11
+https://youtu.be/P0iQBL81qrw
+
+MongoDB Indexing: 12
+https://youtu.be/vj_YkHxzF2s
+
+MongoDB Aggregation: 13
+https://youtu.be/J_L6r_v3hss
+
+MongoDB BackUp and Restore: 14
+https://youtu.be/ilcwtzi92Cs
+
+Python udemy:
+https://www.udemy.com/course/full-python-programming/?couponCode=DAD2F68E59755D5E6C7B
+
+Basic Drowing Skill and Skeching:
+https://www.udemy.com/course/how-to-draw-101-basic-drawing-skills-sketching-exercises/
+
+Machine learning on Python:
+https://www.udemy.com/course/data-science-machine-learning-a-z-hands-on-python/?couponCode=578767A60EA162A9C65B
+
+
+JWT with Spring Boot:
+https://youtu.be/MU2e6-CC3Pc
+
+JWT in JavaInUse
+https://youtu.be/Iq1n0RG4FN0
+
+https://www.javainuse.com/spring/jwt
+
+IoT:
+https://youtu.be/UrwbeOIlc68
+
+AI:
+https://youtu.be/s-s9ilkMVj8
+
+Python free:
+https://youtu.be/hEgO047GxaQ
+
+Spring Boot security with JWT:
+https://youtu.be/OKBvBoa8X40
+
+Spring Boot + JWT Authentication Hello World Example:
+https://youtu.be/p6MXb0GtXwg
+
+https://www.javainuse.com/spring/boot-jwt
+
+Spring Boot + JWT(JSON Web Token) + MYSQL Example
+https://youtu.be/EW91te0s36Q
+doc link:
+https://www.javainuse.com/spring/boot-jwt-mysql
+
+Spring Boot - Microservices:
+https://youtu.be/y8IQb4ofjDo
+https://youtu.be/kq_0goMjKOs
+ 

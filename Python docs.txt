@@ -1,0 +1,66 @@
+
+						** PYTHON **
+					     =================
+https://www.udemy.com/course/the-complete-high-school-and-college-mathematics/?couponCode=FREEJULY
+https://www.udemy.com/course/python-introduction-to-data-science-and-machine-learning-a-z/?couponCode=1B5343FC328786E3AF6C
+
+Matchine Learning With Python:
+https://www.freecodecamp.org/learn/machine-learning-with-python/
+
+https://www.youtube.com/watch?v=_uQrJ0TkZlc
+
+============================================================================================================================================
+
+https://towardsdatascience.com/machine-learning-probability-statistics-f830f8c09326
+https://towardsdatascience.com/a-straightforward-guide-to-cleaning-and-preparing-data-in-python-8c82f209ae33
+
+Types of data - numerical and categorical
+mean, median, mode, range, variance, standard deviation, Percentile, Correlation
+Probablity, Joint Probablity, conditional probablity, Baye's theorem
+how to get these using numpy, and pandas - manually by using the formula, built-in methods
+
+ 
+
+data exploration - why ? 
+data cleaning - what, why ?
+data prepartion - what, why ?
+
+============================================================================================================================================
+** Data Exloration **
+
+https://towardsdatascience.com/data-exploration-and-analysis-using-python-e564473d7607#:~:text=Data%20exploration%20is%20a%20key,of%20data%20cleaning%20and%20preprocessing.
+
+
+===========================================================================================================================================================================
+
+** Data Cleaning **
+
+https://towardsdatascience.com/data-cleaning-in-python-the-ultimate-guide-2020-c63b88bf0a0d
+
+===================================================================================================================================================================
+
+** Data preparation **
+
+https://medium.com/analytics-vidhya/part-1-data-preparation-made-easy-with-python-e2c024402327
+
+==============================================================================================================================================================================
+
+
+Matrix, vector and its operations like (add, subtract, multiply, divide, inverse, transpose), properties like (associative, commutative, distributive)
+Calculus (differentiation, integration, on matrices too)
+Multivariate Calculus
+Principal Component Analysis
+
+
+https://towardsdatascience.com/a-one-stop-shop-for-principal-component-analysis-5582fb7e0a9c
+https://towardsdatascience.com/linear-algebra-for-machine-learning-22f1d8aea83c
+https://jonathan-hui.medium.com/machine-learning-linear-algebra-a5b1658f0151
+https://medium.com/fintechexplained/calculus-multivariate-calculus-and-machine-learning-242b9efcb41c
+
+==========================================================================================================================================================================================================================================
+
+https://jovian.ai/pkprince48/machinelearning
+
+===========================================================================================================================================
+
+

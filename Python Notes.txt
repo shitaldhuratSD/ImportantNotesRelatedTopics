@@ -1,0 +1,93 @@
+
+
+
+https://www.coursera.org/lecture/machine-learning-with-python/introduction-to-machine-learning-zSm8k
+
+https://www.youtube.com/watch?v=kqtD5dpn9C8
+
+https://www.w3schools.com/python/
+
+https://www.programiz.com/python-programming/online-compiler/
+
+Introduction
+=====================================================================
+What is Programming?
+
+"Programming is the way to instruct the
+
+computer to perform various tasks"
+
+“Instruct the computer”: this means you provide the computer a set of instructions that are write-down in a language that the computer can understand. We perform a lot of tasks in the computer or our mobile phones, like : • playing music, • playing games or • surfing the internet. To perform these tasks, computer needs command, Computers understand instructions that are write-down in a specific syntactical form called a programming language like Python.
+
+
+
+How to Program?
+
+To program, we need to learn programming languages. As to convey our commands to the computer we need to write codes. But why should we learn Python? We know that Python is the most popular language, but it's not good to only learn it because of its popularity but because of it's features.
+
+
+
+Python Programming
+
+Python is very easy to learn the language as compared to other languages like C, C#, Javascript, lava, etc. Let's compare some codes from different languages :
+
+C Language
+
+#include <stdio.h>
+int main() {
+    printf("It's C");
+    return 0;
+}
+Output :
+
+It's C
+Java
+
+class Main {
+  public static void main(String[] args)
+  {
+    system.out.println("It's Java")
+  }
+}
+Output :
+
+It's Java
+Python
+
+print("It's Python")
+Output :
+
+It's Python
+It is very easy to code in python language and anybody can learn python basics in a few hours or days. C takes 5 lines of code, Java takes 6 lines of code, and Python takes only 1 line of code to execute a phrase.
+
+
+
+
+
+======================================================================================================================================================================================================================================
+
+
+		** Matchine Learning **
+
+https://www.potentiaco.com/what-is-machine-learning-definition-types-applications-and-examples/#:~:text=These%20are%20three%20types%20of,unsupervised%20learning%2C%20and%20reinforcement%20learning.
+
+https://youtu.be/xtOg44r6dsE
+
+=============================================================================================================================================================================================================================================
+
+
+Matrix, vector and its operations like (add, subtract, multiply, divide, inverse, transpose), properties like (associative, commutative, distributive)
+Calculus (differentiation, integration, on matrices too)
+Multivariate Calculus
+Principal Component Analysis
+
+
+https://towardsdatascience.com/a-one-stop-shop-for-principal-component-analysis-5582fb7e0a9c
+https://towardsdatascience.com/linear-algebra-for-machine-learning-22f1d8aea83c
+https://jonathan-hui.medium.com/machine-learning-linear-algebra-a5b1658f0151
+https://medium.com/fintechexplained/calculus-multivariate-calculus-and-machine-learning-242b9efcb41c
+
+==========================================================================================================================================================================================================================================
+
+
+

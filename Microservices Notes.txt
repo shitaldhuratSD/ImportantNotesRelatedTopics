@@ -1,0 +1,8 @@
+
+For Microsoft links:
+
+https://dzone.com/articles/configuring-micro-services-spring-cloud-config-ser
+
+https://spring.io/guides/gs/centralized-configuration/
+
+https://medium.com/@ijayakantha/microservices-centralized-configuration-with-spring-cloud-f2a1f7b78cc2#:~:text=Central%20configuration%20server%20provides%20configurations,by%20integrating%20to%20several%20environments.

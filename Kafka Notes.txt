@@ -1,0 +1,42 @@
+
+https://youtu.be/gdo_AMfncpU
+
+https://docs.spring.io/spring-kafka/reference/html/#kafka
+
+https://www.javatpoint.com/apache-kafka#:~:text=Apache%20Kafka%20is%20an%20open,data%20events%20in%20a%20day.
+
+Installation:
+https://www.javatpoint.com/installation-of-apache-kafka
+
+https://www.confluent.io/blog/apache-kafka-spring-boot-application/
+
+https://www.baeldung.com/spring-kafka
+
+**  https://reflectoring.io/spring-boot-kafka/
+ 
+** https://www.maestralsolutions.com/spring-boot-implementation-for-apache-kafka-with-kafka-tool/
+
+   https://medium.com/@TimvanBaarsen/programmatically-create-kafka-topics-using-spring-kafka-8db5925ed2b1
+
+    https://youtu.be/sBgwk5xFcTQ
+
+** Kafka Video: Publishing and Consuming Messages from Topics:
+   https://youtu.be/L_iu8HOus8k
+
+** https://www.javainuse.com/spring/spring-boot-apache-kafka-hello-world
+===========================================================================================================================================
+
+Start kafka:
+https://gist.github.com/DevoKun/01b6c9963d5508579f4cbd75d52640a9
+
+=============================================================================================================================================
+For Kafka on Putty:
+
+	IP: 172.30.74.206
+	Port: 9090 or 9092
+
+
+
+
+
+

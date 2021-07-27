@@ -1,0 +1,36 @@
+
+
+https://dev.mysql.com/downloads/mysql/
+
+https://www.youtube.com/watch?v=zyW83fDBt5A
+
+ .net 4.5.2
+
+https://www.drivereasy.com/knowledge/how-to-fix-msvcp140-dll-is-missing/
+
+https://www.drivereasy.com/knowledge/how-to-fix-msvcp140-dll-is-missing/
+
+
+===================================================================================================================================
+
+  > mysqld --initialize
+
+	run mysql:
+  > mysqld --console
+
+	After that open again command line -> Go to mysql folder in bin path-> then try to run mysql server
+  > mysql -u root -h localhost
+
+	It will show error now find default password , To find open Msql folder -> data folder ->Anmitsu.err right click on that
+	-> Open with notpad -> you can seedefalt password in end -> copy that
+
+   > mysql -u root -h localhost -p
+   Enter password: *********
+
+	To reset password
+
+   > alert user 'root'@'localhost' identified by 'root';
+   > exit
+
+
+password 65uzrgmwl.6P
