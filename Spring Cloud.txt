@@ -1,6 +1,7 @@
 
 ** Eureka Server **
 
+https://youtu.be/AjCz-RWoFj4
 https://youtu.be/1877gcSlBXM
 https://www.javainuse.com/spring/spring_eurekaregister3
 https://github.com/ramram43210/Java_Spring_2019/tree/master/JavaEE_2020/SpringBoot_EurekaServer
@@ -31,7 +32,11 @@ The Zuul Server is also known as Edge Server.
 
 ** hystrix **
 
+https://www.javainuse.com/spring/spring_hystrix
 https://www.tutorialspoint.com/spring_boot/spring_boot_hystrix.htm
+https://www.javainuse.com/spring/spring_hystrix_circuitbreaker
+https://youtu.be/y5rZQK4tzBw
+
 https://cloud.spring.io/spring-cloud-netflix/multi/multi__circuit_breaker_hystrix_clients.html
 
 Hystrix is a library from Netflix. Hystrix isolates the points of access between the services,
@@ -44,6 +49,8 @@ So at that time, the control goes to the fallback method and returns the custom 
 
 **Ribbon**
 
+https://youtu.be/rsrYZ5cEySE
+https://www.javainuse.com/spring/spring_ribbon
 https://cloud.spring.io/spring-cloud-netflix/multi/multi_spring-cloud-ribbon.html
 
 The Ribbon mainly provides client-side load balancing algorithms. It is a client-side load balancer that 
@@ -63,7 +70,9 @@ ribbon-httpclient: It is a REST client built on top of Apache HttpClient integra
 ribbon-core: It is a Client Configuration API.
 
 --------------------------------------------------------------------------------------------------------------------------------------------
-**Zipkin **
+** Zipkin **
+
+ https://youtu.be/_TraMGjDKCg
 
 Zipkin is an open source project that provides mechanisms for sending, receiving, storing, and visualizing traces. 
 This allows us to correlate activity between servers and get a much clearer picture of exactly what is happening in our services.
@@ -75,8 +84,9 @@ https://www.baeldung.com/tracing-services-with-zipkin
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**Kafka**
+			**Kafka**
 
+https://youtu.be/hyJZP-rgooc
 https://www.tibco.com/reference-center/what-is-apache-kafka
 https://www.tutorialspoint.com/spring_cloud/spring_cloud_streams_with_apache_kafka.htm
 https://dzone.com/articles/kafka-with-spring-cloud-stream
@@ -114,12 +124,15 @@ Elasticsearch - is a NoSQL database that is based on the Lucene search engine.
 Logstash - is a log pipeline tool that accepts inputs from various sources, executes different transformations, and exports the data to various targets. 
 It is a dynamic data collection pipeline with an extensible plugin ecosystem and strong Elasticsearch synergy
 Kibana - is a visualization UI layer that works on top of Elasticsearch.
-These three projects are used together for log analysis in various environments. So Logstash collects and parses logs, Elastic search indexes and store this information while Kibana provides a UI layer that provide actionable insights.
+
+These three projects are used together for log analysis in various environments. So Logstash collects and parses logs, 
+Elastic search indexes and store this information while Kibana provides a UI layer that provide actionable insights.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------- 
  
  ** Sleuth  **
 
+ https://youtu.be/_TraMGjDKCg
  https://spring.io/projects/spring-cloud-sleuth
 
 
@@ -132,6 +145,8 @@ keep (sampling), if remote fields (baggage) are sent, and which libraries are tr
 
  ** Feign **
 
+ https://youtu.be/_MMf2SvNqxo
+
 https://nirajsonawane.github.io/2019/03/21/Simplifying-Microservices-Communication-Using-Spring-Cloud-OpenFeign/#:~:text=Feign%20Simpliffyes%20the%20HTTP%20API,of%20writing%20repetitive%20boilerplate%20code.
 
 Feign is a Java to HTTP client binder. Feign Simpliffyes the HTTP API Clients using declarative way.
@@ -142,6 +157,7 @@ Developers can use declarative annotations to call rest servicese instead of wri
 
 ** Spring Cloud Config **
 
+https://youtu.be/a3VAFKGrajo
 https://spring.io/projects/spring-cloud-config
 
 Spring Cloud Config provides server and client-side support for externalized configuration in a distributed system. 
@@ -171,8 +187,19 @@ Your server load will decrease (as more content is served from the CDN cache), w
 Content delivery will be faster, since a round-trip to the webserver is not necessary for cached content.
 The availability of your website will increase, because even if your webserver is down, the CDN can serve cached content.
 
+The CDN stands for Content Delivery Network. It is a component used in modern web applications. It improves the delivery of the content by
+ replicating commonly requested files (such as HTML Pages, stylesheet, JavaScript, images, videos, etc.) across a globally distributed set of caching servers.
+
+It is the reason CDN becomes more popular. The CDN reduces the load on an application origin and improves the user experience. 
+It delivers a local copy of the content from a nearby cache edge (a cache server that is closer to the end-user), or a Point of Presence (PoP).
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+  ** Spring Cloud for Amazon Web Services **
+
+https://spring.io/projects/spring-cloud-aws
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 spring.cloud.loadbalancer.ribbon.enabled=false
 
