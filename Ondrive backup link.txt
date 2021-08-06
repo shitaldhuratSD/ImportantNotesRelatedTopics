@@ -1,0 +1,4 @@
+
+mklink /j "C:\Users\shital_dhurat\OneDrive - Torry Harris Business Solutions Pvt Ltd\"folder name" "C:\Users\\Desktop\sroucefoldername"
+
+ex:-  mklink /j "C:\Users\shital_dhurat\OneDrive - Torry Harris Business Solutions Pvt Ltd\SpringCloudBackup" "C:\Users\\Desktop\backup"

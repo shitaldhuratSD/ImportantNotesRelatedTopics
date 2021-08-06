@@ -1,0 +1,27 @@
+
+
+
+ ** Developing config server on top of Zookeeper :
+
+ * https://medium.datadriveninvestor.com/building-a-distributed-config-server-using-zookeeper-6570363799e5
+ https://docs.spring.io/spring-cloud-zookeeper/docs/current/reference/html/
+ https://zookeeper.apache.org/
+ https://www.youtube.com/watch?v=Ym_8CfY5d2Q&feature=youtu.be
+ https://www.youtube.com/watch?v=XgNIGjFnPQE
+ https://www.javainuse.com/spring/spring-boot-apache-kafka-hello-world
+
+ Apache ZooKeeper is an effort to develop and maintain an open-source server which enables highly reliable distributed coordination.
+
+ Use Zookeeper as config server when there is a coordination required between different applications. 
+ Lets say a large distributed system is running in different cluster and shared/common metadata is required for processing. 
+ Metadata information could be store in central Zookeeper server and can be expose via api.
+ All application will get meta information from api in real time.
+
+ This Kafka installation comes with an inbuilt zookeeper. Zookeeper is mainly used to track status of nodes present
+ in Kafka cluster and also to keep track of Kafka topics, messages, etc.
+
+ Apache Zookeeper is distributed data storage (not designed for large data storage) and mainly used for coordination purposes. 
+ Configuration management is one widely used purpose. Distributed systems like Apache Hadoop, Apache Kafka, Apache Hive, Apache Nifi and 
+ many more are using zookeeper.
+
+ https://www.javainuse.com/misc/apache-kafka-hello-world

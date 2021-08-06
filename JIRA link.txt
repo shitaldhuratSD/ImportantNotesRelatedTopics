@@ -1,0 +1,12 @@
+
+
+https://thbs.atlassian.net/jira/software/c/projects/COETG/issues/
+
+https://thbs.atlassian.net/secure/RapidBoard.jspa?rapidView=107&projectKey=COETG
+
+https://thbs.atlassian.net/jira/software/c/projects/COETG/issues/?jql=project%20%3D%20%22COETG%22%20ORDER%20BY%20created%20DESC
+
+ Assign new task:
+ https://thbs.atlassian.net/jira/software/projects/COETGBAU/boards/120?assignee=6101276aec92ab0070708c79
+
+ Project : COETGBAU

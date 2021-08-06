@@ -1,6 +1,10 @@
 
 
- Machine Learning
+			** Machine Learning **
+
+https://www.freecodecamp.org/news/how-to-learn-machine-learning-practical-tips-and-resources/
+https://www.youtube.com/watch?v=GwIo3gDZCVQ
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 There are multiple definitions for Machine Learning by different people, like:
 
 In 1959, Arthur Samuel, a computer scientist who pioneered the study of artificial intelligence, described machine learning as “the study that gives computers the ability to learn without being explicitly programmed.”
